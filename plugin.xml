@@ -4,7 +4,7 @@
     xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads"
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     id="com.clarkcb.cordova.plugin.PushPlugin"
-    version="1.2.4">
+    version="1.2.5">
 
   <name>PushPlugin</name>
 	<author>Bob Easterday</author>
