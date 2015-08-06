@@ -86,7 +86,7 @@ PushNotification.prototype.backgroundDone = function(successCallback, errorCallb
         console.log("PushNotification.backgroundDone failure: success callback parameter must be a function");
         return
     }
-
+alert("success sync3");
      cordova.exec(successCallback, errorCallback, "PushPlugin", "didCompleteBackgroundProcess", []);
 }
 }
