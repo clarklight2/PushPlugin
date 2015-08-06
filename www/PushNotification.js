@@ -72,7 +72,7 @@ PushNotification.prototype.setAutoMessageCount = function(count) {
 
 // https://github.com/phonegap-build/PushPlugin/issues/288#issuecomment-72121589
 //Try to change the function's name below to didCompleteBackgroundProcess
-PushNotification.prototype.backgroundDone = function(successCallback, errorCallback) {
+PushNotification.prototype.didCompleteBackgroundProcess = function(successCallback, errorCallback) {
     if (errorCallback == null) { errorCallback = function() {
         // Try to add in the Javascript function here!!!!
         alert("errorsync1");
