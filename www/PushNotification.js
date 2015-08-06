@@ -64,7 +64,7 @@ PushNotification.prototype.setApplicationIconBadgeNumber = function(successCallb
     cordova.exec(successCallback, errorCallback, "PushPlugin", "setApplicationIconBadgeNumber", [{badge: badge}]);
 };
 
-  if ( device.platform == 'iOS' || device.platform == 'ios' || device.platform == "IOS" ){
+  
       
 PushNotification.prototype.setAutoMessageCount = function(count) {
     cordova.exec(null, null, "PushPlugin", "setAutoMessageCount", [count]);
@@ -89,7 +89,7 @@ PushNotification.prototype.backgroundDone = function(successCallback, errorCallb
 alert("success sync3");
     
 }
-}
+
 //-------------------------------------------------------------------
 
 if(!window.plugins) {
