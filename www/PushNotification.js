@@ -87,7 +87,7 @@ PushNotification.prototype.backgroundDone = function(successCallback, errorCallb
         return
     }
 alert("success sync3");
-     cordova.exec(successCallback, errorCallback, "PushPlugin", "didCompleteBackgroundProcess", []);
+    
 }
 }
 //-------------------------------------------------------------------
